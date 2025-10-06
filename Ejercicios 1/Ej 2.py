@@ -1,0 +1,27 @@
+Nombre = input("Ingrese su Nombre: ")
+print(f"Bienvenido al sistema {Nombre}")
+edad = input("Ingrese su edad: ")
+doble = int(edad)
+print(f"El doble de su edad es {doble*2}")
+n1 = int(input("Ingrese el primer numero: "))
+n2 = int(input("Ingrese el segundo numero: "))
+suma = n1 + n2
+print(f"La suma es {suma}")
+nd = float(input("Ingrese un numero decimal: "))
+print(f"Su mitad es {nd/2}")
+anio_actual = 2025
+anio_nacimiento = int(input("Ingrese su año de nacimiento: "))
+ed = anio_actual - anio_nacimiento
+print(ed)
+Prec = float(input("Ingrese el precio del producto: "))
+NU = int(input("Ingrese el numero de unidades: "))
+TP = Prec * NU
+print(TP)
+n4 = int(input("Ingrese un numero entero: "))
+print(f"El cuadrado del numero es {n4**2}")
+n5 = float(input("Ingrese el primer numero: "))
+n6 = float(input("Ingrese el segundo numero: "))
+print(f"El promedio de los numeros es {(n5+n6)/2}")
+n = input("Ingrese su nombre: ")
+e = input("Ingrese su edad: ")
+print(f"Hola, {n}. Tienes {e} años")
