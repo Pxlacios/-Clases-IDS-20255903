@@ -1,0 +1,6 @@
+x=int(input())
+A=input()
+a= int(len(A)/x)
+B=input()
+b=int(len(B)/x)
+print(f"{A[0:a]}{B[-b:]}")
